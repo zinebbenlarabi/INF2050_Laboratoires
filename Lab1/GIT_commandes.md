@@ -56,13 +56,20 @@ git init
 ```
 Permet d'initialiser un nouveau dépôt Git.
 
+## La commande fork
+```
+git fork "[url du dépôt à forker]" 
+```
+Permet de créer une copie complètement indépendante d'un dépôt distant.
+Cette commande vous permet d'effectuer un clone du dépot Git master sur votre propre compte.
+
 ## La commande clone
 ```
-git clone [adresse du dépôt à cloner]
+git clone [url du dépôt à cloner]
 ```
 Afin de récupérer une copie du dépôt sur votre propre Github faites usage de la commande "CLONE".
-Cette commande vous permet d'effectuer un clone du dépot Git master sur votre propre compte.
-Les deux copies fonctionneront indépendamment l'une de l'autre.
+Cette copie sera alors liée au dépôt d'origine ce qui vous permettra de recevoir les changements de l'origine et envoyer vos propres changements directement sur le dépôt d'origine.
+
 
 ## La commande config
 ```
