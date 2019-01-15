@@ -11,33 +11,33 @@ Afin de pouvoir travailler sur votre propre copie du dépôt ci présent il va f
 Pour cela nous allons utiliser l'option FORK de Github.
 
 ### Récupération du dépôt sur Github
-1 - Connectez-vous à votre compte Github sur https://github.com/  
-2 - Rendez-vous sur le dépôt suivant : https://github.com/Nouninoun/INF2050_Laboratoires  
-3 - Effectuez un fork du dépôt : ![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fork.png "Github fork")  
+1. Connectez-vous à votre compte Github sur https://github.com/  
+2. Rendez-vous sur le dépôt suivant : https://github.com/Nouninoun/INF2050_Laboratoires  
+3. Effectuez un fork du dépôt : ![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fork.png "Github fork")  
 
 ### Récupération du dépôt en local
-4 - Ouvrez Git Bash  
-5 - Prévenez le Git Bash de votre identité  
+4. Ouvrez Git Bash  
+5. Prévenez le Git Bash de votre identité  
 ```
 git config --global user.nom "[Votre nom de compte github]"
 git config --global user.email "[Votre email de compte github]"
 ```
 Note : n'utilisez "--global" que si vous n'utilisez qu'un seul compte Git. 
 Si vous en utilisez plusieurs via ce Git Bash n'utilisez pas le "--global" ceci affectera uniquement le dépôt en cours d'utilisation.  
-6 - Rendez-vous dans le dossier de vos cours INF 2050  
-7 - Créez un dossier dans lequel vous allez gérer vos Laboratoires.  
+6. Rendez-vous dans le dossier de vos cours INF 2050  
+7. Créez un dossier dans lequel vous allez gérer vos Laboratoires.  
 ```
 mkdir [nom du dossier]
 ```
-8 - Entrez dans ce dossier  
+8. Entrez dans ce dossier  
 ```
 cd [nom du dossier]
 ```
-9 - Clonez ce dépôt en local sur votre ordinateur.  
+9. Clonez ce dépôt en local sur votre ordinateur.  
 ```
 git clone [url de votre depot forké]
 ```
-10 - Vérifiez le statut de votre dépôt en local  
+10. Vérifiez le statut de votre dépôt en local  
 ```
 git status
 ```
@@ -45,7 +45,7 @@ git status
 ## Manipulations sur le dépôt
 ### Modification sur un fichier
 Ouvrez votre Explorateur de fichiers (Windows, Linux ou Mac).  
-Vous trouverz le dépôt là ou vous avez effectué le clone.  
+Vous trouverez le dépôt là ou vous avez effectué le clone.  
 Dans le dossier /INF2050_Laboratoires/Lab1/projet vous trouverez un fichier nommé README.md.  
 Un fichier \*.md est un fichier Markdown. C'est un fichier faisant usage du langage Markdown, souvent utilisé sur Github pour les README car ils peuvent s'afficher directement sur la page Github (en dessous des fichiers).  
 Ouvrez le fichier README.md sur votre IDE préféré (Atom, Notepad++, Sublime...).  
