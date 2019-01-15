@@ -25,7 +25,7 @@ git config --global user.email "[Votre email de compte github]"
 Note : n'utilisez "--global" que si vous n'utilisez qu'un seul compte Git. 
 Si vous en utilisez plusieurs via ce Git Bash n'utilisez pas le "--global" ceci affectera uniquement le dépôt en cours d'utilisation.  
 6 - Rendez-vous dans le dossier de vos cours INF 2050  
-7 - Créez un dosser dans lequel vous allez gérer vos Laboratoires.  
+7 - Créez un dossier dans lequel vous allez gérer vos Laboratoires.  
 ```
 mkdir [nom du dossier]
 ```
