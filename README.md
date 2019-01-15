@@ -1,4 +1,4 @@
-# INF2050_example_repo
+# INF2050 Laboratoire 1
 Ce Repository Git sert de base pour vous entraîner à utiliser les commandes Git.
 
 ## Installation de Git
