@@ -6,7 +6,7 @@ Ensuite prenez rapidement connaissance des commandes : [Liste des commandes pour
 Vous pourrez vous servir de ce fichier de commandes comme aide mémoire.  
 
 
-## Récupérez le Dépôt distant sur votre propre compte Github
+## Récupérez le Dépôt
 Afin de pouvoir travailler sur votre propre copie du dépôt ci présent il va falloir que vous l'importiez sur votre propre compte Github.
 Pour cela nous allons utiliser l'option FORK de Github.
 
@@ -41,3 +41,39 @@ git clone [url de votre depot forké]
 ```
 git status
 ```
+
+## Manipulations sur le dépôt
+### Modification sur un fichier
+Ouvrez votre Explorateur de fichiers (Windows, Linux ou Mac). 
+Vous trouverz le dépôt là ou vous avez effectué le clone. 
+Dans le dossier /INF2050_Laboratoires/Lab1/projet vous trouverez un fichier nommé README.md. 
+Un fichier \*.md est un fichier Markdown. C'est un fichier faisant usage du langage Markdown, souvent utilisé sur Github pour les README car ils peuvent s'afficher directement sur la page Github (en dessous des fichiers). 
+Ouvrez le fichier README.md sur votre IDE préféré (Atom, Notepad++, Sublime...). 
+Modifiez le fichier pour insérer votre nom et ce que vous souhaitez afficher à l'écran sur votre dossier Github. 
+
+### Appliquer vos nouvelles modifications sur le dépôt Github
+#### Sur votre Git Bash (ou console sur Linux)
+Rendez-vous dans la racine de votre dépôt.  
+Vérifiez le statut de votre dépôt local :  
+```
+git status
+```
+Git devrait vous indiquer que des changements ont été effectués sur votre copie locale ainsi que des informations sur ces changements.  
+
+Indiquer à Git que vous souhaitez référencer des fichiers :  
+```
+git add .
+```
+Indiquer à Git que vous souhaitez référencer tous les changements apportés aux fichiers :  
+```
+git commit -m "modifications dans le README du projet lab1"
+```
+Indiquer à Git d'appliquer ces changements sur le dépôt distant :  
+```
+git push origin master
+```
+
+### Vérifier vos modifications
+Rendez-vous sur Github.com dans votre dépôt.  
+Allez dans le dossier /Lab1/projet/.  
+Vos modifications devraient apparaitre sous votre liste de fichiers.  
