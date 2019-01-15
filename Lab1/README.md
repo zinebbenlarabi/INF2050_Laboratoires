@@ -76,4 +76,4 @@ git push origin master
 ### Vérifier vos modifications
 Rendez-vous sur Github.com dans votre dépôt.  
 Allez dans le dossier /Lab1/projet/.  
-Vos modifications devraient apparaitre sous votre liste de fichiers.   
+Vos modifications devraient apparaitre sous votre liste de fichiers.  
