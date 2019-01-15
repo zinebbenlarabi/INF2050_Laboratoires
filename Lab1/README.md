@@ -95,7 +95,7 @@ Afin de simuler ces modifications voici la démarche :
 3 - Effectuez la boucle normale de add-commit-push.  
 
 Vous rencontrez l'erreur de push indiquant qu'un autre push entre en conflit avec le votre.  
-![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fetchfirst.png "Git error")  
+![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fetchfirst.PNG "Git error")  
 
 4 - Effectuez un  pull. Dans le fichier que vous avez modifié vous trouverez un message d'erreur Git vous indiquant :  
 HEAD : vos dernières modifications entrant en conflit.  
