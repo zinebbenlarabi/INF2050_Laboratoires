@@ -37,7 +37,7 @@ cd [nom du dossier]
 ```
 git clone [url de votre depot forké]
 ```
-5 - Vérifiez le statut de votre dépôt en local  
+10 - Vérifiez le statut de votre dépôt en local  
 ```
 git status
 ```
