@@ -100,6 +100,6 @@ Vous rencontrez l'erreur de push indiquant qu'un autre push entre en conflit ave
 4 - Effectuez un  pull. Dans le fichier que vous avez modifié vous trouverez un message d'erreur Git vous indiquant :  
 HEAD : vos dernières modifications entrant en conflit.  
 \<xxxxxxxxxx\> : les modifications effectuées sur Github.  
-Supprimez les messages d'erreur ainsi que la vesion que vous ne souhaitez pas garder des modifications.  
+Supprimez les messages d'erreur ainsi que la version que vous ne souhaitez pas garder des modifications.  
 
 5 - Effectuez la boucle add-commit-push. Tout est rentré dans l'ordre.  
