@@ -16,8 +16,8 @@ Pour cela nous allons utiliser l'option FORK de Github.
 3 - Effectuez un fork du dépôt : ![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fork.png "Github fork")  
 
 ### Récupération du dépôt en local
-4 - Ouvrez Git Bash
-5 - Prévenez le Git Bash de votre identité
+4 - Ouvrez Git Bash  
+5 - Prévenez le Git Bash de votre identité  
 ```
 git config --global user.nom "[Votre nom de compte github]"
 git config --global user.email "[Votre email de compte github]"
