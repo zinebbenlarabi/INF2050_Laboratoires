@@ -56,13 +56,6 @@ git init
 ```
 Permet d'initialiser un nouveau dépôt Git.
 
-## La commande fork
-```
-git fork "[url du dépôt à forker]" 
-```
-Permet de créer une copie complètement indépendante d'un dépôt distant.
-Cette commande vous permet d'effectuer un clone du dépot Git master sur votre propre compte.
-
 ## La commande clone
 ```
 git clone [url du dépôt à cloner]
