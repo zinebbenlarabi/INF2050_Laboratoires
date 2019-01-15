@@ -106,20 +106,14 @@ Cela peut être utile lorsque l'on travaille à plusieur(e)s personnes/équipes.
 Le dépôt est alors copié sur une autre branche. 
 Les add et commit fais sur la branche n'affectent pas le dépôt master et inversement.
 
-## La commande merge
-```
-git merge [nom de la branche]
-```
-Permet d'appliquer les changements d'une branche vers son dépôt master.
-
 ## La commande push
 ```
 git push
 ```
-Permet de "pousser" les modifications effectuées en local sur un dépôt distant.
+Permet d'appliquer les modifications effectuées en local sur un dépôt distant.
 
 ## La commande pull
 ```
 git pull
 ```
-Permet de "tirer" les modifications effectuées sur le dépôt distant vers le dossier local.
+Permet de récupérer les modifications effectuées sur le dépôt distant vers le dossier local.
