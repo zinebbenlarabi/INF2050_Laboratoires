@@ -77,3 +77,29 @@ git push origin master
 Rendez-vous sur Github.com dans votre dépôt.  
 Allez dans le dossier /Lab1/projet/.  
 Vos modifications devraient apparaitre sous votre liste de fichiers.  
+
+## Résoudre un conflit de version
+### Créer un conflit de version
+Quand on travaille à plusieurs sur un dépôt distant il est plus que probable de rencontrer des conflits.  
+Souvent cela se produit lorsque plusieurs personnes travaillent en même temps sur un même fichier.  
+Cas de figure :  
+- A et B sont deux collaborateurs sur un même dépôt Git.  
+- A effectue des changements sur le fichier /Lab1/projet/README.md.  
+- B effectue également des modifications au même endroit sur le même fichier.  
+- A push ses changements.  
+- B push ses changements => Git lui renverra une erreur lors de son push.  
+
+Afin de simuler ces modifications voici la démarche :  
+1 - Modifiez le fichier README.md sur Github.com en modifiant votre nom et validez ces modifications
+2 - Modifiez le fichier README.md sur votre ordinateur en modifiant votre nom (pour autre chose que 1-)
+3 - Effectuez la boucle normale de add-commit-push.  
+
+Vous rencontrez l'erreur de push indiquant qu'un autre push entre en conflit avec le votre.  
+![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fetchfirst.png "Git error")  
+
+4 - Effectuez un  pull. Dans le fichier que vous avez modifié vous trouverez un message d'erreur Git vous indiquant :  
+HEAD : vos dernières modifications entrant en conflit.  
+\<xxxxxxxxxx\> : les modifications effectuées sur Github.  
+Supprimez les messages d'erreur ainsi que la vesion que vous ne souhaitez pas garder des modifications.  
+
+5 - Effectuez la boucle add-commit-push. Tout est rentré dans l'ordre.  
