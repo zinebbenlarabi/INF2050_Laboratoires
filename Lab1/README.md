@@ -44,12 +44,12 @@ git status
 
 ## Manipulations sur le dépôt
 ### Modification sur un fichier
-Ouvrez votre Explorateur de fichiers (Windows, Linux ou Mac). 
-Vous trouverz le dépôt là ou vous avez effectué le clone. 
-Dans le dossier /INF2050_Laboratoires/Lab1/projet vous trouverez un fichier nommé README.md. 
-Un fichier \*.md est un fichier Markdown. C'est un fichier faisant usage du langage Markdown, souvent utilisé sur Github pour les README car ils peuvent s'afficher directement sur la page Github (en dessous des fichiers). 
-Ouvrez le fichier README.md sur votre IDE préféré (Atom, Notepad++, Sublime...). 
-Modifiez le fichier pour insérer votre nom et ce que vous souhaitez afficher à l'écran sur votre dossier Github. 
+Ouvrez votre Explorateur de fichiers (Windows, Linux ou Mac).  
+Vous trouverz le dépôt là ou vous avez effectué le clone.  
+Dans le dossier /INF2050_Laboratoires/Lab1/projet vous trouverez un fichier nommé README.md.  
+Un fichier \*.md est un fichier Markdown. C'est un fichier faisant usage du langage Markdown, souvent utilisé sur Github pour les README car ils peuvent s'afficher directement sur la page Github (en dessous des fichiers).  
+Ouvrez le fichier README.md sur votre IDE préféré (Atom, Notepad++, Sublime...).  
+Modifiez le fichier pour insérer votre nom et ce que vous souhaitez afficher à l'écran sur votre dossier Github.  
 
 ### Appliquer vos nouvelles modifications sur le dépôt Github
 #### Sur votre Git Bash (ou console sur Linux)
