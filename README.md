@@ -1,10 +1,10 @@
 # INF2050_example_repo
 Example repository for Git commands
 
-##Ce Repository Git sert de base pour vous entraîner à utiliser les commandes Git.
+## Ce Repository Git sert de base pour vous entraîner à utiliser les commandes Git.
 
-##Installation de Git
-###Lien de téléchargement : https://git-scm.com/download/
+## Installation de Git
+### Lien de téléchargement : https://git-scm.com/download/
 Installez Git en incluant dans l'installation le Git Bash. 
 C'est le terminal de commande qui vous permettra de manipuler les deépots Git en local.
 
