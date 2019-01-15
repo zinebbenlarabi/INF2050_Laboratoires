@@ -10,7 +10,8 @@ Vous pourrez vous servir de ce fichier de commandes comme aide mémoire.
 Afin de pouvoir travailler sur votre propre copie du dépôt ci présent il va falloir que vous l'importiez sur votre propre compte Github.
 Pour cela nous allons utiliser l'option FORK de Github.
 
-1 - Connectez-vous à votre compte Github sur https://github.com/
-2 - Rendes-vous sur le dépôt suivant : https://github.com/Nouninoun/INF2050_Laboratoires
+1 - Connectez-vous à votre compte Github sur https://github.com/  
+2 - Rendez-vous sur le dépôt suivant : https://github.com/Nouninoun/INF2050_Laboratoires  
+3 - Effectuez un fork du dépôt : ![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fork.png "Github fork")
 
 
