@@ -90,8 +90,8 @@ Cas de figure :
 - B push ses changements => Git lui renverra une erreur lors de son push.  
 
 Afin de simuler ces modifications voici la démarche :  
-1 - Modifiez le fichier README.md sur Github.com en modifiant votre nom et validez ces modifications
-2 - Modifiez le fichier README.md sur votre ordinateur en modifiant votre nom (pour autre chose que 1-)
+1 - Modifiez le fichier README.md sur Github.com en modifiant votre nom et validez ces modifications  
+2 - Modifiez le fichier README.md sur votre ordinateur en modifiant votre nom (pour autre chose que 1-)  
 3 - Effectuez la boucle normale de add-commit-push.  
 
 Vous rencontrez l'erreur de push indiquant qu'un autre push entre en conflit avec le votre.  
