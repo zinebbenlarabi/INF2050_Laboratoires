@@ -91,16 +91,16 @@ Cas de figure :
 - B push ses changements => Git lui renverra une erreur lors de son push.  
 
 Afin de simuler ces modifications voici la démarche :  
-1 - Modifiez le fichier README.md sur Github.com en modifiant votre nom et validez ces modifications  
-2 - Modifiez le fichier README.md sur votre ordinateur en modifiant votre nom (pour autre chose que 1-)  
-3 - Effectuez la boucle normale de add-commit-push.  
+1. Modifiez le fichier README.md sur Github.com en modifiant votre nom et validez ces modifications  
+2. Modifiez le fichier README.md sur votre ordinateur en modifiant votre nom (pour autre chose que 1-)  
+3. Effectuez la boucle normale de add-commit-push.  
 
 Vous rencontrez l'erreur de push indiquant qu'un autre push entre en conflit avec le votre.  
 ![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab1/img/lab1_fetchfirst.PNG "Git error")  
 
-4 - Effectuez un  pull. Dans le fichier que vous avez modifié vous trouverez un message d'erreur Git vous indiquant :  
+4. Effectuez un  pull. Dans le fichier que vous avez modifié vous trouverez un message d'erreur Git vous indiquant :  
 HEAD : vos dernières modifications entrant en conflit.  
 \<xxxxxxxxxx\> : les modifications effectuées sur Github.  
 Supprimez les messages d'erreur ainsi que la version que vous ne souhaitez pas garder des modifications.  
 
-5 - Effectuez la boucle add-commit-push. Tout est rentré dans l'ordre.  
+5. Effectuez la boucle add-commit-push. Tout est rentré dans l'ordre.  
