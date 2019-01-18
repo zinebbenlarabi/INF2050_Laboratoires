@@ -1,5 +1,5 @@
-# Ceci est un titre
-## Ceci est un sous titre
+# Laboratoire 1
+## Test des git add-commit-push
 
 Bienvenue sur le projet du Laboratoire 1.
 Ce projet est effectué par : Maude Singcaster 12345.  
