@@ -19,7 +19,7 @@ Pour cela nous allons utiliser l'option FORK de Github.
 4. Ouvrez Git Bash  
 5. Prévenez le Git Bash de votre identité  
 ```
-git config --global user.nom "[Votre nom de compte github]"
+git config --global user.name "[Votre nom de compte github]"
 git config --global user.email "[Votre email de compte github]"
 ```
 Note : n'utilisez "--global" que si vous n'utilisez qu'un seul compte Git. 
