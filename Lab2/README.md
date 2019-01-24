@@ -149,9 +149,7 @@ Exemple pour que le .jar connaisse automatiquement sa classe Main lors de son ex
   ```
 
 # Manipulations
-<Warning>
 Les étapes suivantes nécessitent votre cours ainsi que des recherches de votre part (le corrigé vous sera fourni sur le Github)
-</Warning>
 
 ## Ajout d'une fonction avec un test
 ### Ajout d'une fonction permettant d'effectuer une addition
