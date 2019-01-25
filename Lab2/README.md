@@ -124,7 +124,8 @@ Exemple pour que le .jar connaisse automatiquement sa classe Main lors de son ex
           </plugin>
         </plugins>
       </pluginManagement>
-      <plugin>
+      <plugins>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
           <configuration>
