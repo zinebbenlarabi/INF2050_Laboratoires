@@ -43,7 +43,8 @@ Dans ce dossier créez un fichier nomme "FunctionsTest".
 
 4- Créez un Test \@AfterEach qui effectuera un println affichant "Le Test [nom du test précédent] est OK"
 
-## Organiser ses tests
+## Pour aller plus loin
+### Nommer ses tests
 Afin que les tests soient plus lisibles utilisez l'annotation \@DisplayName qui permettra à IntelliJ de réafficher le nom du test dans son interface.
 
 ### Exploration libre
