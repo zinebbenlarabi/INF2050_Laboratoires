@@ -117,3 +117,11 @@ Permet d'appliquer les modifications effectuées en local sur un dépôt distant
 git pull
 ```
 Permet de récupérer les modifications effectuées sur le dépôt distant vers le dossier local.
+
+
+# Mettre à jours votre dépot Git par rapport au dépôt upstream (lab 2)
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+```
