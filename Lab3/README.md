@@ -8,6 +8,9 @@ java -version
 ```
 Se référer au Lab2 en cas de soucis.
 
+### En cas de problèmes de lib dans IntelliJ
+Cliquez sur le problème de librairie et reportez vous au menu contextuel de débugage (ALT + ENTREE).
+
 ## Une base de travail
 ### Créer un projet Java
 
@@ -39,3 +42,9 @@ Dans ce dossier créez un fichier nomme "FunctionsTest".
 3- Créer un Test \@Test qui vérifier que la fonction sub() effectue bien une soustraction.
 
 4- Créez un Test \@AfterEach qui effectuera un println affichant "Le Test [nom du test précédent] est OK"
+
+## Organiser ses tests
+Afin que les tests soient plus lisibles utilisez l'annotation \@DisplayName qui permettra à IntelliJ de réafficher le nom du test dans son interface.
+
+### Exploration libre
+Sentez-vous libre d'explorer tous les types de tests applicables dans JUnit5 et 4.
