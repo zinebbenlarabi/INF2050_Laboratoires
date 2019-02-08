@@ -25,7 +25,7 @@ Une implémentation de la fonction add (ou sub) de la classe Functions.
 Un print du résultat.
 
 VOtre programme se présentera sous la forme :
-![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab3/img/001")  
+![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab3/img/001)  
 
 
 ## Mettre en place ses tests
