@@ -4,7 +4,7 @@
 ### Vérifier l'installation de Java
 1. Dans le terminal de commandes taper :
 ```
-java --version
+java -version
 ```
 
 2. Si la commande renvoie un numéro de version alors Java est bien installé.
@@ -124,7 +124,8 @@ Exemple pour que le .jar connaisse automatiquement sa classe Main lors de son ex
           </plugin>
         </plugins>
       </pluginManagement>
-      <plugin>
+      <plugins>
+        <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-jar-plugin</artifactId>
           <configuration>
