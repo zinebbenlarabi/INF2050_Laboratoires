@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="10b34210-3b7d-4a2e-9804-3b872c001387" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/junit_jupiter_api_5_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Lab3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.0.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/apiguardian-api-1.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.4.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-jupiter-api-5.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.4.0-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/junit-platform-commons-1.4.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.1.1-sources.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/opentest4j-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lab3/com/company/Functions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/Lab3/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Functions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/FunctionsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/lab3-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/aether-api-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/aether-impl-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/aether-spi-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/aether-util-0.9.0.M2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/aether-util-1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/antlr-2.7.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/asm-6.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/classworlds-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-beanutils-1.7.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-chain-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-codec-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-collections-3.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-compress-1.16.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-digester-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-io-2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-lang-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-lang3-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-logging-1.0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/commons-validator-1.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/dom4j-1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/doxia-core-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/doxia-decoration-model-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/doxia-logging-api-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/doxia-module-fml-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/doxia-module-xhtml-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/doxia-sink-api-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/doxia-site-renderer-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/file-management-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/httpclient-4.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/httpcore-4.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/junit-3.8.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-aether-provider-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-artifact-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-artifact-transfer-0.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-common-artifact-filters-3.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-compat-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-core-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-dependency-analyzer-1.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-dependency-plugin-3.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-dependency-tree-3.0.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-model-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-model-builder-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-plugin-api-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-reporting-api-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-reporting-impl-2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-repository-metadata-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-settings-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-settings-builder-3.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-shared-io-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/maven-shared-utils-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/objenesis-2.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/oro-2.0.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-archiver-3.6.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-cipher-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-classworlds-2.2.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-component-annotations-1.5.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-container-default-1.0-alpha-30.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-i18n-1.0-beta-7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-interpolation-1.14.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-io-3.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-sec-dispatcher-1.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-utils-3.1.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/plexus-velocity-1.1.7.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/sisu-guice-2.1.7-noaop.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/sisu-inject-bean-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/sisu-inject-plexus-1.4.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/snappy-0.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/sslext-1.2-0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/struts-core-1.3.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/struts-taglib-1.3.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/struts-tiles-1.3.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/velocity-1.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/velocity-tools-2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/wagon-provider-api-2.10.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/xercesImpl-2.9.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/xml-apis-1.3.04.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/libs/xz-1.8.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/com.company/FunctionsTest" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-60009911">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="FunctionsTest" value="1" />
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+          <entry key="PLAIN_TEXT" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="FunctionsTest" value="659" />
+          <entry key="java" value="1194" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1194" />
+          <entry key="PLAIN_TEXT" value="659" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="208">
+              <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Functions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding>
+                <element signature="e#82#83#0" expanded="true" />
+                <element signature="e#107#108#0" expanded="true" />
+                <element signature="e#290#291#0" expanded="true" />
+                <element signature="e#318#319#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/FunctionsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+              <folding>
+                <element signature="e#191#192#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#860#861#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Test/FunctionsTest" />
+        <option value="$PROJECT_DIR$/Test/FunctionsTest.java" />
+        <option value="$PROJECT_DIR$/test/com.company/FunctionsTest.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Functions.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/company/FunctionsTest.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Lab3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Lab3" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="com.company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549595209094" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/junit-jupiter-api-5.4.0.jar!/" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.company" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Maude\Documents\GitHub\https---github.com-Nouninoun-INF2050_Laboratoires.git\INF2050_Laboratoires\Lab3\test\com.company" />
+      <recent name="C:\Users\Maude\Documents\GitHub\https---github.com-Nouninoun-INF2050_Laboratoires.git\INF2050_Laboratoires\Lab3\Test\com.company" />
+      <recent name="C:\Users\Maude\Documents\GitHub\https---github.com-Nouninoun-INF2050_Laboratoires.git\INF2050_Laboratoires\Lab3\Test" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.FunctionsTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="Lab3" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Lab3" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="com.company.FunctionsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Unnamed" type="JUnit" factoryName="JUnit">
+      <module name="Lab3" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.Unnamed" />
+      <item itemvalue="Application.Main" />
+      <item itemvalue="JUnit.FunctionsTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FunctionsTest" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="10b34210-3b7d-4a2e-9804-3b872c001387" name="Default Changelist" comment="" />
+      <created>1549590490835</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549590490835</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="FunctionsTest - 2019.02.07 at 21h 52m 08s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2019.02.07 at 22h 05m 26s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FunctionsTest - 2019.02.07 at 22h 06m 07s.xml">
+      <configuration name="FunctionsTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.24962178" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Find" order="5" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Theme Preview" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Test/FunctionsTest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com.company/FunctionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="23" column="88" selection-start-line="23" selection-start-column="88" selection-end-line="23" selection-end-column="88" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Functions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#82#83#0" expanded="true" />
+            <element signature="e#107#108#0" expanded="true" />
+            <element signature="e#290#291#0" expanded="true" />
+            <element signature="e#318#319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com.company/FunctionsTest">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/FunctionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="42" lean-forward="true" selection-start-line="33" selection-start-column="42" selection-end-line="33" selection-end-column="42" />
+          <folding>
+            <element signature="e#191#192#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#860#861#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Lab3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>junit-jupiter-api-5.4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
