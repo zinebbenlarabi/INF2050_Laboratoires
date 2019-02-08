@@ -24,7 +24,7 @@ Qui contient 2 Scanner d"entrée afin de récupérer deux valeurs tapées par l'
 Une implémentation de la fonction add (ou sub) de la classe Functions.
 Un print du résultat.
 
-VOtre programme se présentera sous la forme :
+Votre programme se présentera sous la forme :  
 ![alt text](https://github.com/Nouninoun/INF2050_Laboratoires/blob/master/Lab3/img/001.png)  
 
 
