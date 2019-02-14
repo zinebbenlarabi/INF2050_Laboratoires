@@ -39,7 +39,7 @@ ________________________________________________________________________________
 
 ## GitHub : Pull-request
 Recherchez comment effectuer un "Pull-request" depuis un repository forké.  
-Effectuez un "pull-request" du dossier créé précédemment (celui nommé par votre code étudiant) vers le repository de démonstration.  
+Effectuez un "pull-request" de votre dépot vers la branche "Branche-Lab4" du repository de démonstration.  
 Rappel du repository : https://github.com/Nouninoun/INF2050_Laboratoires
 
-ATTENTION : Votre pull request ne doit contenir que le dossier concerné !
+!!! ATTENTION !!! : Votre pull request doit se faire sur la branche "Branche-Lab4" de mon repository !!!
