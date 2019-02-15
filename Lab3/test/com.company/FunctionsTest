@@ -1,0 +1,42 @@
+package com.company;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class FunctionsTest {
+
+    @org.junit.jupiter.api.BeforeEach
+    void setUp() {
+        int x = 2;
+        int y = 4;
+        Functions funcTest = new Functions();
+    }
+
+    @org.junit.jupiter.api.Test
+    void add() {
+        // Arrange
+        final int expected = x + y;
+
+        // Act
+        final int actual = funcTest.add(x,y);
+
+        // Assert
+        Assert.assertEquals(actual, expected);
+    }
+
+    @org.junit.jupiter.api.Test
+    void sub() {
+        // Arrange
+        final int expected = x - y;
+
+        // Act
+        final int actual = funcTest.sub();
+
+        // Assert
+        Assert.assertEquals(actual, expected);
+    }
+
+    @org.junit.jupiter.api.AfterEach
+    void finTest() {
+        System.out.println("Le test " + @org.junit.jupiter.api.Test + " est ok");
+    }
+}
