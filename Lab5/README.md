@@ -8,7 +8,7 @@ Ce Laboratoire se découpe en quatre parties :
 
 
 ## Créer un nouveau repository
-Créez un nouveau Repository sur votre compte Github en faisant usage de l'interface graphique de Github.
+Créez un nouveau Repository PUBLIC sur votre compte Github en faisant usage de l'interface graphique de Github.
 
 ## Récupérez ce repository
 Récupérez votre repository sur votre ordinateur à l'aide d'un git clone sur votre nouveau repository.  
