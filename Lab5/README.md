@@ -1,10 +1,10 @@
 # INF2050 Laboratoire 5 : Outil d'intégration continue
 ## Au préalable
 Ce Laboratoire se découpe en quatre parties :  
-1 - Créer un nouveau repo Git
-2 - Transférer le projet Maven du Laboratoire 2 dans ce nouveau repo
-3 - Lier le nouveau repository à Travis CI
-4 - Configurer Travis CI afin qu'il build automatiquement le projet.
+1 - Créer un nouveau repo Git  
+2 - Transférer le projet Maven du Laboratoire 2 dans ce nouveau repo  
+3 - Lier le nouveau repository à Travis CI  
+4 - Configurer Travis CI afin qu'il build automatiquement le projet.  
 
 
 ## Créer un nouveau repository
@@ -17,8 +17,8 @@ Récupérez votre repository sur votre ordinateur à l'aide d'un git clone sur v
 ## Intégrer le contenu nécessaire pour le Laboratoire
 Dans ce nouveau repository Git vous allez devoir intégrer le nécessaire afin d'utiliser Travis CI.
 À la racine de ce nouveau repository intégrez :  
-- Le dossier "src" du Lab2
-- le fichier pom.xml du Lab2
+- Le dossier "src" du Lab2  
+- le fichier pom.xml du Lab2  
 
 ## Travis CI
 ### Créer un compte Travis CI
