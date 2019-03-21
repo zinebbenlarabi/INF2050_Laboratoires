@@ -89,8 +89,17 @@ Elle est créée à partir de la branche MASTER. Elle servira de rappatriement d
 ### Feature
 Elle est crée à partir de la branche DEVELOPMENT. Elle servira au développement d'une nouvelle fonctionnalité de votre projet. LEs modifications apportées sur cette branche seront envoyées vers la branche DEVELOPMENT.
 
-## Maniuplation des branches
+## Manipulation des branches
 1- Créez un nouveau dépot git  
-2- Créez un fichier README.md dans votre branche master  
+2- Créez un fichier README.md dans votre branche master dont vous remplirez le contenu avec une erreur  
 3- Créez une branche development à partir de ce master  
 4- Créez une branche feature à partir de la branche development.  
+5- Dans la branche feature créez un fichier READMEbis.md dont vous remplirez le contenu  
+6- Dans la branche development modifiez le README.md  
+7- Rappatriez le contenu de la branche feature vers development  
+8- Créez une branche hotfix qui corrigera l'erreur dans le README.md  
+9- Appliquez cette correction dans les branche master et development  
+10- Rappatriez votre branche feature vers la branche development  
+11- Faites une dernière modification sur votre README.md  
+12- Créez une branche release à partir de votre branche development  
+13- Rappatriez la branche release vers la branche master  
