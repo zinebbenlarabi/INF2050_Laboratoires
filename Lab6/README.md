@@ -1,4 +1,4 @@
-# INF2050 Laboratoire 6 : Utilisation avancée de Git
+# INF2050 Laboratoire 6a : Utilisation avancée de Git
 
 ## Les branches
 Une branche est une copie parallèle à votre repo master. on créé une branche lorsqu'on a besoin de travailler sur des versions de code différentes de la branche principale.
@@ -68,3 +68,29 @@ Afin de créer un tag sur un dépot on utilise toujours la commande git tag :
 git tag -a v5.5.3 -m "Version finale 5.5.3"
 ```  
 L'option -a permet de remplir les informations contenues dans le tag et l'option -m permet d'ajouter un commentaire qui accompagnera le tag.
+
+# Laboratoire 6b : Mise en contexte
+Vous allez créer un environnement Git pour un projet en entreprise pour cela vous allez avoir besoin des branches : master, hotfix, release, development, feature.
+
+## Les branches
+
+### Master
+Elle sera votre branche principale contenant votre application donnée au client.  
+
+### Hotfix
+Elle est créée à partir de la branche MASTER. Une fois le hotfix finit elle envoie ses données vers MASTER et DEVELOPMENT. Elle servira pour les traitements de bugs rapides qui doivent être appliqués pour assurer le fonctionnement de l'application live.  
+
+### Release
+Elle est créée à partir de la branche DEVELOPMENT. Elle servira de point d'entrée d'une partie de développement finie. Elle envoie ses modifications à la branche master.
+
+### Development
+Elle est créée à partir de la branche MASTER. Elle servira de rappatriement des différentes features et des modifications apportées au projet. Elle envoie ses modifications en créant la branche RELEASE.
+
+### Feature
+Elle est crée à partir de la branche DEVELOPMENT. Elle servira au développement d'une nouvelle fonctionnalité de votre projet. LEs modifications apportées sur cette branche seront envoyées vers la branche DEVELOPMENT.
+
+## Maniuplation des branches
+1- Créez un nouveau dépot git  
+2- Créez un fichier README.md dans votre branche master  
+3- Créez une branche development à partir de ce master  
+4- Créez une branche feature à partir de la branche development.  
