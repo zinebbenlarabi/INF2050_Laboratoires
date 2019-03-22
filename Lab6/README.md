@@ -24,8 +24,8 @@ L'utilité de travailler sur des branches séparées est de ne pas impacter dire
 Le merge permet de rappatrier le travail d'une branche vers une autre .
 Pour cela il faut rendre la branche sur laquelle on veut rappatrier le travail, et effectuer la commande merge vers la branche contenant les modifications.
 ```
-git checkout [nom de la branche d'origine]
-git merge [nom de la branche de destination]
+git checkout [nom de la branche de destination]
+git merge [nom de la branche d'origine]
 ```
 Ou signifier l'origine et la destination du merge dans la même commande :
 ```
