@@ -48,7 +48,7 @@ package : [ENTREE]
 <maven.compiler.source>1.8</maven.compiler.source>
 <maven.compiler.target>1.8</maven.compiler.target>
 ```  
-4. En ligne de commande, à la racine du dossier Lab2 entrer la commande suivante :  
+4. En ligne de commande, à la racine du projet Maven (là où se trouve le pom.xml) entrer la commande suivante :  
 ```
   mvn package
 ```  
